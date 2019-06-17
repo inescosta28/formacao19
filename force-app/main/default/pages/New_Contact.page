@@ -1,0 +1,30 @@
+<apex:page controller="NewContact" lightningStylesheets="true">
+
+ 
+ <apex:form > 
+ 
+ <apex:pageBlock title="Create Contact" mode="edit">
+<apex:pageBlockSection title="My Content Section" columns="1" >
+
+<apex:inputText value="{!FirstName}"> First Name  </apex:inputText>
+<apex:inputText value="{!inputLName}"> Last Name  </apex:inputText>
+<apex:inputText value="{!inputPhone}"> Phone  </apex:inputText>
+<apex:inputText value="{!inputEmail}"> Email  </apex:inputText>
+
+
+
+</apex:pageBlockSection> 
+
+
+    <apex:pageBlockButtons >
+    
+     <apex:commandButton value="Create" action="{!save}" id="save"/> <br/>
+    
+      </apex:pageBlockButtons>
+
+   </apex:pageBlock>
+   
+     
+ </apex:form>
+ 
+</apex:page>

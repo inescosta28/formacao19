@@ -1,0 +1,9 @@
+<apex:page Controller="TestController19">
+
+ <apex:outputPanel >
+ 
+ <apex:outputText value="My var is {!myVar}"/>
+ 
+ </apex:outputPanel>
+ 
+</apex:page>

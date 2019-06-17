@@ -1,0 +1,3 @@
+<apex:page >
+  <flow:interview name="criar_contacto"/>
+</apex:page>

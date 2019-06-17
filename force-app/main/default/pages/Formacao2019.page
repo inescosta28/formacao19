@@ -1,0 +1,23 @@
+<apex:page controller="TestController19">
+
+  
+   <br/>
+   <h1>Parabéns</h1>
+   This is your about page<br/><br/>
+  
+
+   <apex:outputPanel id="display" >
+ 
+ <apex:outputText value="My var is {!myVar}"/>
+ <br/>
+  <apex:outputText value="My var2 is {!myVar2}"/>
+ 
+ </apex:outputPanel>
+ 
+ <apex:form >
+ <apex:commandButton value="Update my var" action="{!save}" id="theButton"/>
+ 
+ </apex:form>
+  
+  
+  </apex:page>

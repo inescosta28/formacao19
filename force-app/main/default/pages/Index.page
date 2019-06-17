@@ -1,0 +1,15 @@
+<apex:page controller="testController" >
+
+     <apex:outputPanel id="display">
+   
+         <apex:outputText value="May var is {!myVar}" />
+         <br/>
+         <apex:outputText value="May var2 is {!myVar2}" />
+       
+     </apex:outputPanel>
+     <br/><br/>
+     <apex:form >
+     <apex:commandButton value="Update My var" action="{!save}" id="theButton"/>
+     </apex:form>
+
+</apex:page>
